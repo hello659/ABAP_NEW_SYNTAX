@@ -5,11 +5,11 @@
 *&---------------------------------------------------------------------*
 REPORT z_3_6_1.
 
-  DATA: lr_structure_desciptor TYPE REF TO cl_abap_structdescr,
-        lt_components1 TYPE abap_compdescr_tab.
+  DATA: lr_structure_desciptor TYPE REF TO cl_abap_structdescr.
+
 
   lr_structure_desciptor ?= cl_abap_typedescr=>describe_by_name( 'SFLIGHT' ).
-  lt_components1 = lr_structure_desciptor->components.
+  data(lt_components1) = lr_structure_desciptor->components.
 
 
   DATA(lt_components2) = CAST cl_abap_structdescr(
