@@ -31,5 +31,5 @@ DATA(lr_demo) = NEW zcl_demo( ).
 
 lr_demo->z_i_demo~demo1( ).
 *lr_demo->z_i_demo~demo2( )."Compiled. but error at runtime.
-lr_demo->z_i_demo~demo3( ). "No errors event though the method is not implemented.
-lr_demo->z_i_demo~demo4( ). "No errors event though the method is not implemented.
+lr_demo->z_i_demo~demo3( ). "No errors even though the method is not implemented.
+lr_demo->z_i_demo~demo4( ). "No errors even though the method is not implemented.
