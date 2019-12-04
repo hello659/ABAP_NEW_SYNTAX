@@ -59,12 +59,12 @@ DATA(lt_2) = VALUE t_t_2( ).
 lt_2 = lt_1.
 
 *Delete lt_2 data and
-*Only matched fields are copied include deep structure
+*Only matched fields are copied including deep structure
 MOVE-CORRESPONDING lt_1 TO lt_2 EXPANDING NESTED TABLES.
 
 
 *Preserve pre-existing data and append new rows.
-*Only matched fields are copied include deep structure
+*Only matched fields are copied including deep structure
 MOVE-CORRESPONDING lt_1 TO lt_2 EXPANDING NESTED TABLES KEEPING TARGET LINES.
 
 BREAK-POINT.
