@@ -42,7 +42,7 @@ lr_disp->write_data( lt_data2 ).
 
 
 *Filter by filter table.
-*Only Key fields can be uses for condition.
+*Only Key fields can be used for condition.
 CLEAR lt_data2.
 DATA: lt_filter TYPE t_t_filter.
 
