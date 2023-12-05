@@ -1,4 +1,3 @@
 # README #
-1. Contents are based on the book 'ABAP to the Future' by Paul Hardy
-2. Every source code is excutable individually.
-
+1. Paul Hardy 의 'ABAP to the Future' 책을 기반으로 작성되었습니다.
+2. 모든 소스코드는 개별적으로 실행 가능합니다.
